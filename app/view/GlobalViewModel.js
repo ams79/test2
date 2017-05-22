@@ -58,7 +58,8 @@ Ext.define('TestApp.view.main.GlobalViewModel', {
                 writer: {
                     type: 'json',
                     rootProperty: 'data'
-                }
+                },
+
 
             },
             listeners:{
@@ -66,7 +67,7 @@ Ext.define('TestApp.view.main.GlobalViewModel', {
                    console.log(arguments);
                }
             },
-
+            pageSize:10,
             autoSync: true,
             autoLoad: true
         },

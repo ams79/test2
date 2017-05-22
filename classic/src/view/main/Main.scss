@@ -93,11 +93,6 @@
     max-width: 32px;
 }
 
- 
-@include extjs-button-ui(
-  $ui: 'lighten',
-  $ui-button-default-color: lighten($base-color,20) 
-);
 
 
 

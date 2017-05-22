@@ -21,7 +21,11 @@ Ext.define('Test.view.main.List', {
         editrecord:null,
         headerBorders: true
     },
+    ui: 'navigation2',
+    layout: 'fit',
     multiselection:null,
+    scrollable:'y',
+
     controller: 'main',
     publishes: ['multiselection','selection','editrecord'],
     twoWayBindable: ['multiselection','selection','editrecord'],

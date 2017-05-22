@@ -13,7 +13,9 @@ Ext.define('Test.view.main.DetailList', {
         title: 'Actor Data View For: {nameFromSelectedRecords}',
     },
     flex:1,
+
     controller: 'detaillist',
+
     items:[
         {
             xtype: 'dataview',

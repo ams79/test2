@@ -20,7 +20,6 @@ Ext.define('Test.view.main.Main', {
     viewModel: 'GlobalViewModel',
     plugins: 'viewport',
     ui: 'navigation',
-
     tabBarHeaderPosition: 1,
     titleRotation: 0,
     tabRotation: 0,
@@ -70,7 +69,8 @@ Ext.define('Test.view.main.Main', {
                     width: 120
                 }
             }
-        }
+        },
+        layout: 'fit'
     },
 
     items: [{
@@ -83,11 +83,8 @@ Ext.define('Test.view.main.Main', {
         title: 'Card List',
         bind: {
             title: 'Card List ( {actorgrid.multiselection.length} )',
-
         },
-
         iconCls: 'fa-home',
-
         items: [{
             xtype: 'detaillist'
         }]

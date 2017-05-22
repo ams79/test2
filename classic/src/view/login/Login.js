@@ -16,10 +16,13 @@ Ext.define('Test.view.login.Login', {
     title: 'Login Window',
     closable: false,
 
+
     autoShow: true,
     items: {
         xtype: 'form',
         reference: 'form',
+        frame:false,
+
         items: [{
             xtype: 'textfield',
             name: 'username',
